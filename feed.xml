@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator>
   <link href="https://leonkoster.dev/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://leonkoster.dev/" rel="alternate" type="text/html" />
-  <updated>2019-09-27T15:23:36+02:00</updated>
+  <updated>2019-09-27T17:05:52+02:00</updated>
   <id>https://leonkoster.dev/</id>
 
   
@@ -21,11 +21,11 @@
   
     <entry>
       <title type="html">CAD to VR Research Project</title>
-      <link href="https://leonkoster.dev/web%20development/2019/09/01/CadToVR/" rel="alternate" type="text/html" title="CAD to VR Research Project" />
+      <link href="https://leonkoster.dev/research/2019/09/01/CadToVR/" rel="alternate" type="text/html" title="CAD to VR Research Project" />
       <published>2019-09-01T00:00:00+02:00</published>
       <updated>2019-09-01T00:00:00+02:00</updated>
-      <id>https://leonkoster.dev/web%20development/2019/09/01/CadToVR</id>
-      <content type="html" xml:base="https://leonkoster.dev/web%20development/2019/09/01/CadToVR/"></content>
+      <id>https://leonkoster.dev/research/2019/09/01/CadToVR</id>
+      <content type="html" xml:base="https://leonkoster.dev/research/2019/09/01/CadToVR/"></content>
 
       
       
@@ -40,7 +40,7 @@
       </author>
 
       
-        <category term="Web Development" />
+        <category term="Research" />
       
 
       
@@ -54,12 +54,12 @@
     </entry>
   
     <entry>
-      <title type="html">Student</title>
-      <link href="https://leonkoster.dev/web%20development/2018/05/01/PunchLine/" rel="alternate" type="text/html" title="Student" />
+      <title type="html">Punchline</title>
+      <link href="https://leonkoster.dev/game%20development/2018/05/01/PunchLine/" rel="alternate" type="text/html" title="Punchline" />
       <published>2018-05-01T00:00:00+02:00</published>
       <updated>2018-05-01T00:00:00+02:00</updated>
-      <id>https://leonkoster.dev/web%20development/2018/05/01/PunchLine</id>
-      <content type="html" xml:base="https://leonkoster.dev/web%20development/2018/05/01/PunchLine/"></content>
+      <id>https://leonkoster.dev/game%20development/2018/05/01/PunchLine</id>
+      <content type="html" xml:base="https://leonkoster.dev/game%20development/2018/05/01/PunchLine/"></content>
 
       
       
@@ -74,7 +74,7 @@
       </author>
 
       
-        <category term="Web Development" />
+        <category term="Game Development" />
       
 
       
@@ -89,11 +89,11 @@
   
     <entry>
       <title type="html">Overcharged</title>
-      <link href="https://leonkoster.dev/web%20development/2018/02/01/Overcharged/" rel="alternate" type="text/html" title="Overcharged" />
+      <link href="https://leonkoster.dev/game%20development/2018/02/01/Overcharged/" rel="alternate" type="text/html" title="Overcharged" />
       <published>2018-02-01T00:00:00+01:00</published>
       <updated>2018-02-01T00:00:00+01:00</updated>
-      <id>https://leonkoster.dev/web%20development/2018/02/01/Overcharged</id>
-      <content type="html" xml:base="https://leonkoster.dev/web%20development/2018/02/01/Overcharged/"></content>
+      <id>https://leonkoster.dev/game%20development/2018/02/01/Overcharged</id>
+      <content type="html" xml:base="https://leonkoster.dev/game%20development/2018/02/01/Overcharged/"></content>
 
       
       
@@ -108,7 +108,7 @@
       </author>
 
       
-        <category term="Web Development" />
+        <category term="Game Development" />
       
 
       
@@ -123,11 +123,11 @@
   
     <entry>
       <title type="html">Buccaneer’s Bay</title>
-      <link href="https://leonkoster.dev/web%20development/2017/09/01/BuccaneersBay/" rel="alternate" type="text/html" title="Buccaneer's Bay" />
+      <link href="https://leonkoster.dev/game%20development/2017/09/01/BuccaneersBay/" rel="alternate" type="text/html" title="Buccaneer's Bay" />
       <published>2017-09-01T00:00:00+02:00</published>
       <updated>2017-09-01T00:00:00+02:00</updated>
-      <id>https://leonkoster.dev/web%20development/2017/09/01/BuccaneersBay</id>
-      <content type="html" xml:base="https://leonkoster.dev/web%20development/2017/09/01/BuccaneersBay/"></content>
+      <id>https://leonkoster.dev/game%20development/2017/09/01/BuccaneersBay</id>
+      <content type="html" xml:base="https://leonkoster.dev/game%20development/2017/09/01/BuccaneersBay/"></content>
 
       
       
@@ -142,7 +142,7 @@
       </author>
 
       
-        <category term="Web Development" />
+        <category term="Game Development" />
       
 
       
