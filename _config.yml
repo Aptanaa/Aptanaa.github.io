@@ -1,0 +1,59 @@
+# Site settings
+title: Leon Koster
+email: leon-koster@web.de
+url: https://leonkoster.dev
+description: "Leon Koster | 3D Software Developer | XR Developer"
+keywords: "3D, XR, Software, Development, Software Development, XR development, Freelancer, Freelance, Programmer, VR, AR, Programming "
+skills: "3D Software Developer | XR Developer"
+meta_author: Koster Leon
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: myshortname
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: e67300 #80B3FF
+  primary-rgb: "230,115,0" #"128,179,255"
+  secondary: 4d4d4d #FD6E8A
+  secondary-dark: 333333 #A2122F
+
+# Footer settings
+footer:
+  copyright: Leon Koster
+  #location: Location
+  social: Find me on
+  #credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: github
+    url: https://github.com/Aptanaa
+  - title: linkedin
+    url: https://www.linkedin.com/in/leon-koster/
+
+# Postal address (add as many lines as necessary)
+#address:
+#  - line: 3481 Melrose Place
+#  - line: Beverly Hills, CA 90210
+
+# Credits content
+#credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+
+# Build settings
+markdown: kramdown
+permalink: pretty
