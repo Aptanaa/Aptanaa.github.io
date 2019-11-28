@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator>
   <link href="https://leonkoster.dev/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://leonkoster.dev/" rel="alternate" type="text/html" />
-  <updated>2019-10-02T16:21:25+02:00</updated>
+  <updated>2019-11-28T20:14:45+01:00</updated>
   <id>https://leonkoster.dev/</id>
 
   
@@ -18,6 +18,40 @@
   
 
   
+  
+    <entry>
+      <title type="html">VR Ribbon Cut Experience</title>
+      <link href="https://leonkoster.dev/vr%20development/2019/11/28/VR-RibbonCut/" rel="alternate" type="text/html" title="VR Ribbon Cut Experience" />
+      <published>2019-11-28T00:00:00+01:00</published>
+      <updated>2019-11-28T00:00:00+01:00</updated>
+      <id>https://leonkoster.dev/vr%20development/2019/11/28/VR-RibbonCut</id>
+      <content type="html" xml:base="https://leonkoster.dev/vr%20development/2019/11/28/VR-RibbonCut/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="VR Development" />
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">CAD to VR Research Project</title>
