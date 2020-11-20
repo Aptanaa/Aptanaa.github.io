@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator>
   <link href="https://leonkoster.dev/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://leonkoster.dev/" rel="alternate" type="text/html" />
-  <updated>2020-03-03T11:44:56+01:00</updated>
+  <updated>2020-11-20T09:24:56+01:00</updated>
   <id>https://leonkoster.dev/</id>
 
   
@@ -20,12 +20,46 @@
   
   
     <entry>
+      <title type="html">CloudXR on Microsoft Azure</title>
+      <link href="https://leonkoster.dev/software%20architecture/vr%20development/2020/11/10/CloudXR-On-MicrosoftAzure/" rel="alternate" type="text/html" title="CloudXR on Microsoft Azure" />
+      <published>2020-11-10T00:00:00+01:00</published>
+      <updated>2020-11-10T00:00:00+01:00</updated>
+      <id>https://leonkoster.dev/software%20architecture/vr%20development/2020/11/10/CloudXR-On-MicrosoftAzure</id>
+      <content type="html" xml:base="https://leonkoster.dev/software%20architecture/vr%20development/2020/11/10/CloudXR-On-MicrosoftAzure/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Software Architecture/VR Development" />
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">VR Ribbon Cut Experience</title>
-      <link href="https://leonkoster.dev/vr%20development/2019/11/28/VR-RibbonCut/" rel="alternate" type="text/html" title="VR Ribbon Cut Experience" />
+      <link href="https://leonkoster.dev/vr%20development/2019/11/28/VR-RibbonCut-Copy/" rel="alternate" type="text/html" title="VR Ribbon Cut Experience" />
       <published>2019-11-28T00:00:00+01:00</published>
       <updated>2019-11-28T00:00:00+01:00</updated>
-      <id>https://leonkoster.dev/vr%20development/2019/11/28/VR-RibbonCut</id>
-      <content type="html" xml:base="https://leonkoster.dev/vr%20development/2019/11/28/VR-RibbonCut/"></content>
+      <id>https://leonkoster.dev/vr%20development/2019/11/28/VR-RibbonCut%20-%20Copy</id>
+      <content type="html" xml:base="https://leonkoster.dev/vr%20development/2019/11/28/VR-RibbonCut-Copy/"></content>
 
       
       
