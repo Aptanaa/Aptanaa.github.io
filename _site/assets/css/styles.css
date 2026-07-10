@@ -12,7 +12,7 @@ body .mid-section-home .sub-heading .nav-link li a { text-decoration: none; colo
 body .mid-section-home .sub-heading .nav-link li a:hover { border-bottom: 2px solid black; color: #333; }
 @media (max-width: 480px) { body .mid-section-home .sub-heading .nav-link li { display: block; margin-left: 10px; } }
 @media (max-width: 480px) { body .mid-section-home .sub-heading { width: 60%; min-width: 270px; } }
-body .mid-section-cover { width: 50%; margin: 0 auto; margin-top: 50px; }
+body .mid-section-cover { width: 60%; margin: 0 auto; margin-top: 50px; }
 body .mid-section-cover nav { display: flex; flex-direction: row; justify-content: space-between; align-items: stretch; flex-wrap: wrap; border-bottom: 2px solid  #222; }
 body .mid-section-cover nav * { margin: 10px 10px; }
 body .mid-section-cover nav h1 { font-size: 40px; }
