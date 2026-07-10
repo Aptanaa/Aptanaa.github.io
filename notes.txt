@@ -1,0 +1,1 @@
+If I want to re-enable blog, go to _includes/navigation.html and uncomment the part for the blog
