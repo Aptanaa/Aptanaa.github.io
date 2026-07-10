@@ -1,0 +1,27 @@
+---
+---
+
+@import "main";
+
+body {
+  .mid-section-home {
+    width: 650px;
+
+    @include mediaQuery(phone-width) {
+      font-size: 1 rem;
+      height: 350px;
+      width: 100%;
+      span {
+        display:none;
+      }
+    }
+  }
+
+  .mid-section-cover {
+    .sub-mid-section-cover { 
+      li {
+        overflow-x: unset;
+      }
+    }
+  }
+}
