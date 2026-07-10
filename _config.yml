@@ -25,6 +25,7 @@ domain: aptanaa.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://aptanaa.github.io # the base hostname & protocol for your site, e.g. http://example.com
 resume_url: "CV_Leon_Koster.pdf"
+repository: Aptanaa/Aptanaa.github.io
 # Build settings
 theme: dev-portfolio-blog
 markdown: kramdown
