@@ -19,11 +19,8 @@ body {
 
   .mid-section-cover {
     .sub-mid-section-cover {
-      li {
-        overflow-x: visible;
-      }
-      p {
-        overflow-x: visible;
+      * {
+        overflow-x:unset;
       }
     }
   }
