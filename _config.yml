@@ -124,7 +124,7 @@ plugins:
   - jekyll-minifier
   - jemoji
 
-google_analytics: "G-XXXXXXXXXX"
+google_analytics: "G-HK03Q26QFX"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

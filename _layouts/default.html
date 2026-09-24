@@ -6,7 +6,16 @@
     <title>{{ page.title }}</title>
 
     <link rel="stylesheet" href="{{"/assets/css/styles.css" | relative_url}}">
+    
+    <!-- Dns Prefetch the google analytics -->
+    {% if site.google_analytics and site.google_analytics != "" and site.google_analytics != "G-XXXXXXXXXX" %}
+    <link rel="dns-prefetch" href="www.googletagmanager.com">
+    <link rel="dns-prefetch" href="www.google-analytics.com">
+    {% endif %}
 
+    {% if site.google_analytics and site.google_analytics != "" and site.google_analytics != "G-XXXXXXXXXX" %}
+      {% include analytics.html %}
+    {% endif %}
     {% feed_meta %}
     {% seo %}
   </head>
