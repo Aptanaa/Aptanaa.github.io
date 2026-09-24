@@ -7,7 +7,7 @@ Hi, thanks for visiting my page.
 
 I am a Software Developer with 5 years of experience and love making pixels move on the screen. My start was in Game Development, and I'm still passionate about Graphics and Games, but I have significantly expanded my skill repertoire over the years. Having worked with a variety of customers on different projects, I love taking ownership and am experienced in all phases of software development: From conceptualizing and planning, to development, deployment and support.
 
-Download my [Resume](CV_Leon_Koster.pdf).
+Download my [Resume](assets/CV_Leon_Koster.pdf).
 
 ## Skills
 

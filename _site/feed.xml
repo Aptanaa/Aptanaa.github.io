@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-09-24T22:02:06+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Leon Koster | Software Developer</title><subtitle>Portfolio Website</subtitle><entry><title type="html">Computing in the Shadow of AI: Upgrading a &amp;gt;10 year old Laptop</title><link href="http://localhost:4000/hardware/maintenance/2026/09/23/CITSOA-Laptop.html" rel="alternate" type="text/html" title="Computing in the Shadow of AI: Upgrading a &amp;gt;10 year old Laptop" /><published>2026-09-23T00:00:00+02:00</published><updated>2026-09-23T00:00:00+02:00</updated><id>http://localhost:4000/hardware/maintenance/2026/09/23/CITSOA-Laptop</id><content type="html" xml:base="http://localhost:4000/hardware/maintenance/2026/09/23/CITSOA-Laptop.html"><![CDATA[<p>Welcome to <strong>Computing in the shadow of AI</strong>, where I try re-purposing, upgrading, optimizing and fixing older hardware in an era of ever increasing, AI-driven prices.</p>
+
+<p>I plan to make this a small series where I do small projects on older hardware and see what I can get out of it, because I am too broke to afford the current prices for computer hardware.</p>
+
+<p>My first project will be to upgrade and do some maintenance on my old laptop from my university days. It is an ASUS N550JK Laptop:</p>
+
+<p class="image-gallery"><img src="/assets/images/BP-Laptop-01.jpg" alt="Laptop Top" /> <img src="/assets/images/BP-Laptop-02.jpg" alt="Laptop Open" /></p>
+
+<p>It came out in late 2014 has the following specs:</p>
+
+<table class="tech-specs-table">
+  <tbody>
+    <tr>
+      <td><strong>CPU</strong></td>
+      <td>Intel Core i7 (4th Gen) 4710HQ / 2.5 GHz</td>
+    </tr>
+    <tr>
+      <td><strong>RAM</strong></td>
+      <td>8GB DDR3L 1600MHz</td>
+    </tr>
+    <tr>
+      <td><strong>GPU</strong></td>
+      <td>NVIDIA GeForce GTX 850M</td>
+    </tr>
+    <tr>
+      <td><strong>Storage</strong></td>
+      <td>1TB HDD</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>As you can see it is already pretty beat up (it fell out of my backpack when I was rushing to a university lecture I was late to) and I already had to fix the hinges by attaching metal plates to the back, drilling holes through the plastic and connecting it to the actual metal hinge mechanism, since the flimsy plastic connector broke off.</p>
+
+<p>Upon closer inspection however, the biggest travesty is the 8GB of DDR3L RAM. Not only is it 2 generations behind at this point, it is only 8GB AND its clock speed is only 1600 MHz. While I can’t upgrade the CPU and GPU (since they are integrated into the motherboard) I CAN upgrade this pitiful amount of RAM. I found a good deal for an additional 8GB DDR3L Stick, so lets open this bad boy up and get to upgrading:</p>
+
+<p><img src="/assets/images/BP-Laptop-03.jpg" alt="Open Laptop Case" /></p>
+
+<p>After opening the case and unplugging the battery, I also decided to check the state of the thermal paste, since this laptop is &gt;10 years old at this point. And it was a good call as one can see, since the original thermal paste is extremely dried out. One quick clean of the heatsink and CPU and GPU later:</p>
+
+<p class="image-gallery"><img src="/assets/images/BP-Laptop-08.jpg" alt="Cleaned heatsink" /> <img src="/assets/images/BP-Laptop-04.jpg" alt="Cleaned CPU and GPU" /></p>
+
+<p>It already looks much better. At this point I also installed my fancy new and blue RAM stick and thus doubled my available memory. Another thing to note is that adding a second stick enables <strong>dual-channel mode</strong>. This will provide a further noticable boost in performance, in addition to the raw increase in memory size.</p>
+
+<p>Now all that is left to do is to apply some thermal paste onto those chips and make sure we cover the whole surface:</p>
+
+<p class="image-gallery"><img src="/assets/images/BP-Laptop-06.jpg" alt="Applying thermal paste" /> <img src="/assets/images/BP-Laptop-05.jpg" alt="Thermal paste spread" /> <img src="/assets/images/BP-Laptop-07.jpg" alt="Thermal paste completed" /></p>
+
+<p>And to reassemble everything:</p>
+
+<p><img src="/assets/images/BP-Laptop-09.jpg" alt="Reasssembled Laptop" /></p>
+
+<p>And voila! I have successfully doubled my memory and performed some crucial maintenance on this old laptop.</p>
+
+<p>After booting it up and making sure everything works, I have a much more responsive system due to the increased memory and on average 15-20° lower CPU and GPU temperatures. The next realistic upgrade for this laptop would be an SSD instead of the ancient HDD, however unless I find a good deal on a used 2.5” SDD, I will put this off for a time without AI inflated storage prices.</p>]]></content><author><name></name></author><category term="hardware" /><category term="maintenance" /><category term="laptop" /><category term="ram" /><category term="thermal-paste" /><category term="jekyll" /><summary type="html"><![CDATA[Repurposing, upgrading, and optimizing older hardware in an era of increasing AI-driven hardware prices.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/BP-Laptop-01.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/BP-Laptop-01.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
