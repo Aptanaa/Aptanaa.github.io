@@ -1,10 +1,39 @@
 ---
 layout: description
 ---
-<h2>{{ page.title }}</h2>
+<h1>{{ page.title }}</h1>
 <small>{{ post.date | date_to_string }}</small>
 {{content}}
 
 {% if page.comments%}
 <hr>
 {% endif %}
+
+<div class="post-footer">
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  // Select all images inside post body or galleries that have an alt attribute
+  const images = document.querySelectorAll('main img[alt], .post-content img[alt], .image-gallery img[alt]');
+
+  images.forEach(img => {
+    const captionText = img.getAttribute('alt').trim();
+
+    // Skip if alt attribute is empty
+    if (!captionText) return;
+
+    // Create <figure> and <figcaption> elements
+    const figure = document.createElement('figure');
+    figure.className = 'js-captioned-figure';
+
+    const figcaption = document.createElement('figcaption');
+    figcaption.className = 'js-captioned-text';
+    figcaption.textContent = captionText;
+
+    // Insert figure into the DOM and wrap the image
+    img.parentNode.insertBefore(figure, img);
+    figure.appendChild(img);
+    figure.appendChild(figcaption);
+  });
+});
+</script>

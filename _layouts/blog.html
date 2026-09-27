@@ -6,6 +6,7 @@ pagetype: blog
 <!-- This loops through the paginated posts -->
 <ul class="blog-list">
     {% for post in paginator.posts %}
+      <div class="blog-list-entry">
         <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
         <small>{{ post.date | date_to_string }}</small>
         {% assign preview = post.description | default: post.excerpt %}
@@ -13,9 +14,9 @@ pagetype: blog
                 {{ preview | strip_html | normalize_whitespace | truncatewords: 30 }}
                 <a href="{{ post.url | relative_url }}">Read more</a>
             </div>
+      </div>
     {% endfor %}
 </ul>
-<hr>
 {% if paginator.total_pages > 1 %}
 <ul>
 
