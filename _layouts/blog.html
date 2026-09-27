@@ -2,15 +2,17 @@
 layout: description
 title: Blog
 pagetype: blog
-pagination:
-  enabled: true
 ---
 <!-- This loops through the paginated posts -->
-<ul>
+<ul class="blog-list">
     {% for post in paginator.posts %}
         <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
         <small>{{ post.date | date_to_string }}</small>
-        <p>{{ post.excerpt }}</p>
+        {% assign preview = post.description | default: post.excerpt %}
+            <div class="excerpt">
+                {{ preview | strip_html | normalize_whitespace | truncatewords: 30 }}
+                <a href="{{ post.url | relative_url }}">Read more</a>
+            </div>
     {% endfor %}
 </ul>
 <hr>
