@@ -29,6 +29,11 @@ repository: Aptanaa/Aptanaa.github.io
 # Build settings
 theme: dev-portfolio-blog
 markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM # GitHub Flavored Markdown
+  syntax_highlighter: rouge
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem

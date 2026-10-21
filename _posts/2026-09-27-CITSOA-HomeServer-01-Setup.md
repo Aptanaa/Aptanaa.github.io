@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Computing in the Shadow of AI: Building a HomeServer - Part 1"
+title: "Computing in the Shadow of AI: HomeServer - Part 1 - Setup + PiHole"
 date: 2026-09-27 
 comments: false
 categories: [homeserver, virtualization, hardware]

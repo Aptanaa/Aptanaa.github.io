@@ -52,6 +52,9 @@ body {
   }
 }
 
+/*******************
+ *  TABLE STYLING  *  
+ *******************/
 .tech-specs-table, table {
   width: 100%;
   border-collapse: collapse;
@@ -93,6 +96,9 @@ body {
   border-bottom: none;
 }
 
+/*******************
+ *  IMAGE STYLING  *  
+ *******************/
 .tech-image {
   padding: 2% 5% 2% 5%;
 }
@@ -101,7 +107,9 @@ body {
   padding-bottom: 1%;
 }
 
-/* Figure container styling */
+/********************
+ *  FIGURE STYLING  *  
+ ********************/
 figure.js-captioned-figure {
   display: inline-block;
   text-align: center;
@@ -131,6 +139,102 @@ figcaption.js-captioned-text {
   min-width: 200px;
 }
 
+/******************
+ *  CODE STYLING  *  
+ ******************/
+/* --- Default Fallback: Code blocks NOT surrounded by div.highlight --- */
+pre:not(.highlight pre) {
+  background-color: #f3f4f6; /* Light grey container */
+  color: #000000;            /* Pure black text */
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+
+pre:not(.highlight pre) code {
+  color: #000000;            /* Ensure code inside fallback pre is black */
+  background-color: transparent;
+  padding: 0;
+}
+
+/* --- Jekyll / Rouge Code Block Container (Grey Theme) --- */
+div.highlight {
+  background-color: #2d333b; /* Medium Slate Grey */
+  border: 1px solid #444c56; /* Subtle grey border */
+  border-radius: 8px;
+  margin-top: 1.5rem;
+  margin-bottom: 2.5rem;
+  overflow: hidden;
+}
+
+pre.highlight {
+  background-color: transparent !important;
+  color: #adbac7; /* Soft light-grey default text */
+  font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  padding: 1rem 1.25rem;
+  overflow-x: auto;
+  margin: 0;
+}
+
+/* Inline code style (for single backticks in paragraphs/lists) */
+p code, li code, td code {
+  background-color: #e5e7eb; /* Light grey pill */
+  color: #111827;            /* Dark text for high contrast */
+  padding: 0.2rem 0.4rem;
+  font-size: 0.85em;
+  font-family: inherit;
+  border-radius: 6px;
+}
+
+/* Clear styles for code tags inside highlighted pre blocks */
+pre.highlight code {
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  color: inherit;
+  font-size: inherit;
+}
+
+/* --- Rouge Syntax Highlighting Tokens (Adjusted for Grey Background) --- */
+.highlight .c, .highlight .cm, .highlight .c1 { 
+  color: #768390; 
+  font-style: italic; 
+} /* Comments */
+
+.highlight .k, .highlight .kd, .highlight .kn, .highlight .kp, .highlight .kr { 
+  color: #f47067; 
+} /* Keywords (e.g., apt, bash) */
+
+.highlight .s, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .s2, .highlight .se, .highlight .sh, .highlight .si, .highlight .sx, .highlight .s1 { 
+  color: #96d0ff; 
+} /* Strings / Paths */
+
+.highlight .nc, .highlight .nf, .highlight .na { 
+  color: #dcbdfb; 
+} /* Functions / Commands */
+
+.highlight .nv, .highlight .vc, .highlight .vg, .highlight .vi { 
+  color: #6cb6ff; 
+} /* Variables */
+
+.highlight .mi, .highlight .mf, .highlight .mo { 
+  color: #6cb6ff; 
+} /* Numbers */
+
+.highlight .ow { 
+  color: #f47067; 
+} /* Operators */
+
+/********************
+ *  FOOTER STYLING  *  
+ ********************/
 .post-footer {
   padding: 5% 0% 10% 0%;
 }
