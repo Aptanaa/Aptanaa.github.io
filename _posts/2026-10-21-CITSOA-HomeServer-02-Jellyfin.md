@@ -51,9 +51,7 @@ And some **memory**, I chose **2GB**:
 
 ![Creating an LXC Container - Memory](/assets/images/BP-HomeServer-02-07.png)
 
-Set up your **network**. Choose an IP for the container and reserve it within your router's **DHCP** server. Then set the **IPv4** to **static** and paste your chosen IP address. Set the **Gateway** to point to your routers IP address. 
-
-Also set **IPv6** to **static**, but leave it empty or you will have problems later! The OS tries to initialize the **IPv6 DHCP**, but will fail to do so and just hang on that startup step:
+Setting up the **network**: After finishing the container setup, I chose an IP for the container and reserved it within my router's **DHCP** with the **MAC address** of the virtual network switch (The **MAC address** is in the **Network** tab of the container). In this step I set the **IPv4** and **IPv6** addresses to **static** and left them empty. If they are left on **DHCP** they will conflict with my address binding and I won't be able to reach the container via my chosen IP: 
 
 ![Creating an LXC Container - Network](/assets/images/BP-HomeServer-02-08.png)
 
