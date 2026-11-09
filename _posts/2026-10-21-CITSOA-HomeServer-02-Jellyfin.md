@@ -4,7 +4,7 @@ title: "Computing in the Shadow of AI: HomeServer - Part 2 - Jellyfin Media Serv
 date: 2026-10-21 
 comments: false
 categories: [homeserver, virtualization]
-tags: [homeserver, proxmox, virtualization, jellyfin, media server, streaming, jekyll]
+tags: [server, homeserver, proxmox, virtualization, jellyfin, media server, streaming, jekyll]
 image: //assets/images/BP-HomeServer-02-01.png
 description: "Computing in the Shadow of AI: Installing Jellyfin Media server in a LXC container and successfully streaming to my TV"
 ---
