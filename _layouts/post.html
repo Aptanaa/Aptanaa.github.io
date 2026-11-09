@@ -9,8 +9,33 @@ layout: description
 <hr>
 {% endif %}
 
-<div class="post-footer">
+<footer class="post-footer">
+<nav class="post-navigation" aria-label="Post Navigation">
+    <div class="nav-item nav-prev">
+      {% if page.previous.url %}
+        <a href="{{ page.previous.url | relative_url }}">
+          &larr; Previous Post
+        </a>
+      {% else %}
+        <span class="nav-placeholder" aria-hidden="true">&larr; Previous Post</span>
+      {% endif %}
+    </div>
 
+    <div class="nav-item nav-top">
+      <a href="#top" id="go-to-top">Go To Top</a>
+    </div>
+
+    <div class="nav-item nav-next">
+      {% if page.next.url %}
+        <a href="{{ page.next.url | relative_url }}">
+          Next Post &rarr;
+        </a>
+      {% else %}
+        <span class="nav-placeholder" aria-hidden="true">Next Post &rarr;</span>
+      {% endif %}
+    </div>
+</nav>
+</footer>
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   // Select all images inside post body or galleries that have an alt attribute

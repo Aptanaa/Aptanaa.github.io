@@ -50,6 +50,9 @@ body {
         border-bottom-color: rgba( 128, 128, 128, 0.4);
       }
     }
+    .post-footer nav {
+       border-bottom: none;
+    }
   }
 }
 
@@ -238,4 +241,30 @@ pre.highlight code {
  ********************/
 .post-footer {
   padding: 5% 0% 10% 0%;
+}
+
+.post-navigation {
+  display: grid;
+  align-items: center;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-bottom: 0px none black;
+}
+
+.post-navigation .nav-placeholder {
+  visibility: hidden;
+  pointer-events: none;
+  display: inline-block;
+}
+
+.nav-prev {
+  text-align: left;
+}
+
+.nav-top {
+  text-align: center;
+}
+
+.nav-next {
+  text-align: right;
 }
