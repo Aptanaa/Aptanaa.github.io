@@ -13,7 +13,8 @@ body {
       height: 350px;
       width: 100%;
       span {
-        display:none;
+        display: inline;
+        font-size: 2rem;
       }
     }
 
@@ -55,7 +56,7 @@ body {
 /*******************
  *  TABLE STYLING  *  
  *******************/
-.tech-specs-table, table {
+.tech-specs-table, table { 
   width: 100%;
   border-collapse: collapse;
   margin: 1.5rem 0;
