@@ -85,9 +85,9 @@ ssh <YOUR USER>@<YOUR VM IP>
 ```
 
 ### Networking setup 
-In the OS setup you can usually chose to set the network settings. I recommend setting it to dhcp and reserving a static IP in your routers **DHCP** **server**. The **MAC address** for that can be found in **VM > Hardware > Network Device**.
+In the OS setup you can usually chose to set the network settings. I recommend setting it to **dhcp** and reserving a static IP in your routers **DHCP** **server**. The **MAC address** for that can be found in **VM > Hardware > Network Device**.
 
-If you cannot chose to set your network interface to dhcp during the installation, here is how you do it manually in **Debian**:
+If you cannot chose to set your network interface to **dhcp** during the installation, here is how you do it manually in **Debian**:
 
 Log into your **VM** and find the name of your virtual network interface. It will It will typically be named something like **`ens18`**, **`eth0`**, or **`enp0s3`**. Use this command to list all network interfaces:
 ```bash
@@ -183,7 +183,7 @@ Now that we have docker running, we can finally move on the the last step:
 ### Installing Immich
 For this part I will be following the [Quick start guide](https://docs.immich.app/overview/quick-start/) from the Immich docs.
 
-The first step is to create a directory to hold my d**ocker-compose.yml** and **.env** files.
+The first step is to create a directory to hold my **docker-compose.yml** and **.env** files.
 ```bash
 mkdir immich-app
 cd immich-app/
