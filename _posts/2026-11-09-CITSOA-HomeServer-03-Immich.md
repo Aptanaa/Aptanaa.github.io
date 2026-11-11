@@ -107,6 +107,47 @@ iface ens18 inet dhcp
 
 Exit your **SSH** connection and login to the VM with the IP address reserved by the router.
 
+### Storage setup
+To make sure Immich can use the storage space we have allocated earlier from **Proxmox**, we need to do a couple of simple steps. First create a directory to mount the storage **"Hard Disk"** to.
+```bash
+mkdir -p /mnt/immich-storage
+```
+
+Next we have to identify the target disk. Run the following command and find the name of the disk that matches the storage size we have allocated earlier.
+```bash
+lsblk
+```
+
+Now we have to create a partition table and partition on the disk. We will do this via `fdisk`, but `parted` is another popular software for this.
+```bash
+sudo fdisk /dev/sdX
+```
+
+Once inside the prompt type the following commands sequentially:
+1. **g** - Create a GPT partition table
+2. **n** - Create a new partition. Accept the default partition number, default first sector and default last sector to use the entire disk with the next free partition number
+3. **w** - Write (Save) the changes and exit
+
+Run `sudo fdisk -l /dev/sdX`  to verify that the partition /dev/sdX1 is now listed with type **Linux Filesystem**.
+
+Format the newly created partition to create a filesystem on it.
+```bash
+sudo mkfs.ext4 /dev/sdX1
+```
+
+To permanently mount the **"Hard Disk"** to the created folder we have to edit the **/etc/fstab** file. This file contains static file system information, or simply put: What is mounted where.
+
+First find the UUID of your Hard Disk with `blkid`. Then add the following line to the end of your **/etc/fstab** file:
+```bash
+UUID=<YOUR UUID> /mnt/immich-storage  ext4  defaults,nofail  0  2
+```
+
+Lastly run the following command to mount your disk. If everything went well you should be able to navigate to and use the disk normally.
+```bash
+sudo mount -a
+```
+
+
 ### Installing Docker
 Now that the operating system is installed, the first step is as usual to update everything to the newest version:
 ```bash
@@ -194,18 +235,6 @@ Download the `docker-compose.yml` and `example.env` from the Immich github:
 wget -O docker-compose.yml https://github.com/immich-app/immich/releases/latest/download/docker-compose.yml
 
 wget -O .env https://github.com/immich-app/immich/releases/latest/download/example.env
-```
-
-Before configuring, create a directory to mount the storage **"Hard Disk"** to.
-```bash
-mkdir -p /mnt/immich-storage
-```
-
-Then permanently mount the storage **"Hard Disk"** to the created folder by editing your **/etc/fstab** file. This file contains static file system information, or simply put: What is mounted where.
-
-First find the UUID of your Hard Disk with `blkid`. Then add the following line to the end of your **/etc/fstab** file:
-```bash
-UUID=<YOUR UUID> /mnt/immich-storage  ext4  defaults,nofail  0  2
 ```
 
 Now we can configure the .env file to set the upload location for our images, set the timezone and the DB password. Remember to actually change the DB password! Leaving the default Postgres password is a big security flaw in your homelab.
